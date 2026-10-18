@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand: #ffc20e;
+  --color-brand-dark: #e6ac00;
+  --color-ink: #111111;
+  --color-muted: #6b7280;
+  --color-soft: #f3f4f6;
+  --color-field: #e3e6f0;
+  --color-line: #e5e7eb;
+  --color-danger: #dc2626;
+  --font-sans: "Roboto", system-ui, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #ffffff;
+  color: #111111;
+  font-family: "Roboto", system-ui, sans-serif;
+}
